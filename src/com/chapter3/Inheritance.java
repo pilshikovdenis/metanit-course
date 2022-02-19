@@ -13,6 +13,10 @@ public class Inheritance {
 
         Monkey kick = new Monkey();
         kick.tellAboutHimself();
+
+//        динамическая диспетчеризация методов
+        Human georgy = new Designer("Morris Visconsa");
+        georgy.tellAboutHimself();
     }
 }
 
