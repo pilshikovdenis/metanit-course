@@ -23,9 +23,7 @@ public class Client {
         System.out.println("Имя: " + initials);
         System.out.println("Возраст: " + age);
         System.out.println("Отчет по используемому банку");
-        System.out.println("Наименование: " + bank.getName());
-        System.out.println("Полное наимнование: " + bank.getFullName());
-        System.out.println("Юр. адрес: " + bank.getLegalAddress());
+        System.out.println(bank.toString());
         System.out.println();
     }
 
